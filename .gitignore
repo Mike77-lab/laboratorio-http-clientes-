@@ -3,3 +3,4 @@ frontend/dist/
 *.log
 .env
 .env.*
+backend/data/eventos.ndjson
