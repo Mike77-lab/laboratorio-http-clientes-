@@ -1,4 +1,5 @@
-node_modules/
-backend/data/raw/
-backend/data/processed/
-backend/data/reports/
+**/node_modules/
+frontend/dist/
+*.log
+.env
+.env.*
