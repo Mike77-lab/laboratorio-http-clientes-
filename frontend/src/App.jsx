@@ -112,7 +112,6 @@ export default function App() {
       </section>
 
       <pre className="estado">{estado}</pre>
-      <p>Abre F12 -&gt; Network y observa GET, OPTIONS, POST, PUT y DELETE.</p>
     </main>
   );
 }
