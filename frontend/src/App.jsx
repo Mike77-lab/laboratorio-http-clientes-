@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API = `http://${window.location.hostname}:3000`;
+const API = window.location.hostname === 'localhost' 
+  ? 'http://localhost:3000' 
+  : 'https://backend-laboratorio-http.onrender.com';
 
 export default function App() {
   const [clientes, setClientes] = useState([]);
